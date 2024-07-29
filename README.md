@@ -12,4 +12,4 @@
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/AGR_2.png" alt="图片2" width="300">
 </div>
 
-* We conduct the experiments among a series of tasks across multiple networks in Adan and AdamW, which are provided in [Adan_AGR](https://github.com/hjiang24/AGR-method/blob/master/Adan_AGR.py) and [AdamW_AGR](https://github.com/hjiang24/AGR-method/blob/master/AdamW_AGR.py), respectively.
+* We conduct the experiments among a series of tasks across multiple networks in Adan and AdamW, which are provided in [Adan_AGR](https://github.com/hjiang24/AGR-method/blob/master/Adan_AGR.py) and [AdamW_AGR](https://github.com/hjiang24/AGR-method/blob/master/AdamW_AGR.py), respectively. It's also easy and similar to embed the AGR method to other popular optimizers such as SGDM, Adam, etc.
