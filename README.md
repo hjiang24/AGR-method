@@ -12,4 +12,4 @@
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/AGR_2.png" alt="图片2" width="300">
 </div>
 
-
+* We conduct the experiments among a series of tasks across multiple networks in Adan and AdamW, which are provided in [Adan_AGR]() and [AdamW_AGR](),respectively.
