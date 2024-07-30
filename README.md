@@ -19,7 +19,7 @@
 ### Image generation
 We conduct image generation based on DDPM accelerated by DDIM among different optimizers. The best performance is achieved by the Adan optimizer with the AGR method on the CIFAR10 dataset. The code is provided in [Image_generation](https://github.com/hjiang24/AGR-method/edit/master/Image_classification). The FID and IS score are shown as below:
 
-|IS$\uparrow$(std)|  10           |   400        | 800         | 1200        | 1600        | 2000        |
+|IS$\uparrow$(std)|  10           |   400        | 800         | 1200        | 1600      | 2000        |
 | :-----------: | :-----------: | :----:       |:------:     |:-------:    |:-------:    |:-------:    |
 | ACProp        | 2.95(0.03)    |7.48(0.07)    |8.30(0.07)   |8.44(0.09)   |9.18(0.16)   |9.83(0.17)   |
 | RMSprop       | 3.92(0.04)    |6.94(0.07)    |8.62(0.14)   |8.61(0.05)   |9.25(0.12)   |9.30(0.06)   |
@@ -37,3 +37,10 @@ We conduct image generation based on DDPM accelerated by DDIM among different op
 | AdamW         | 210.46        |23.90         |17.43        |10.05        |9.11         |9.01         |
 | Adan          | 169.32        |14.60         |13.68        |8.64         |8.07         |7.98         |
 | Adan(AGR)     | 161.65        |13.48         |12.75        |8.08         |7.85         |7.44         |
+
+### Image classification
+We conduct image classification with multiple popular architectures consisting of CNN architectures such as VGG11, ResNet and ConvNext, and transformer architectures such as ViTs, and Swin on AdamW optimizer with and without the AGR method. The following figures are training loss and test accuracy.
+<div align="center">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/resnet18_loss.png" alt="图片1" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/resnet18_accuracy.png" alt="图片2" width="300">
+</div>
