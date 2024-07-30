@@ -18,12 +18,6 @@
 ***
 ### Image generation
 We conduct image generation based on DDPM accelerated by DDIM among different optimizers. The best performance is achieved by the Adan optimizer with the AGR method on the CIFAR10 dataset. The code is provided in [Image_generation](https://github.com/hjiang24/AGR-method/edit/master/Image_classification). The FID and IS score are shown as below:
-<style>
-table
-{
-    margin: auto;
-}
-</style>
 
 |IS(std)        |  10           |   400        | 800         | 1200        | 1600        | 2000        |
 | :-----------: | :-----------: | :----:       |:------:     |:-------:    |:-------:    |:-------:    |
@@ -49,4 +43,13 @@ We conduct image classification with multiple popular architectures consisting o
 <div align="center">
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/resnet18_loss.png" alt="图片1" width="300">
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/resnet18_accuracy.png" alt="图片2" width="300">
+</div>
+
+<div align="center">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/swin_loss.png" alt="图片1" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/vgg_loss.png" alt="图片2" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/Tiny_ViT_loss.png" alt="图片1" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/swin_accuracy.png" alt="图片2" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/vgg_accuracy.png" alt="图片1" width="300">
+    <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/Tiny_accuracy.png" alt="图片2" width="300">
 </div>
