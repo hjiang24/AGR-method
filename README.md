@@ -16,7 +16,7 @@
 
 ## Experiments
 ***
-* Image generation
+* Image generation\\
 We conduct image generation based on DDPM accelerated by DDIM among different optimizers. The best performance is achieved by the Adan optimizer with the AGR method on the CIFAR10 dataset. The code is provided in [Image_generation](https://github.com/hjiang24/AGR-method/edit/master/Image_classification) The FID and IS score are shown as below:
 
 |IS\uparrow(std)|  10           |   400        | 800         | 1200        | 1600        | 2000        |
