@@ -53,3 +53,10 @@ We conduct image classification with multiple popular architectures consisting o
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/vgg_accuracy.png" alt="图片1" width="300">
     <img src="https://github.com/hjiang24/AGR-method/blob/master/figures/Tiny_accuracy.png" alt="图片2" width="300">
 </div>
+
+### Language representation
+We conduct sentence order prediction (SOP) and masked language model (MLM) by Albert on optimizer AdamW with and without the AGR method. The following table shows the SOP accuracy with different weight decay.
+|Weight decay   |  0            |   2e-4       | 5e-4        | 1e-3        | 1e-2        |
+| :-----------: | :-----------: | :----:       |:------:     |:-------:    |:-------:    |
+| AdamW         | 80.02         |82.14         |82.01        |82.94        |82.73        |
+| AdamW(AGR)    | 80.55         |84.19         |84.47        |83.21        |83.06        |
